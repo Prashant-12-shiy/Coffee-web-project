@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css"
+    />
+
+    <title>Coffee</title>
+  </head>
+  <body>
+    <!-------------- Header -------------->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"> Java Script Café </a>
+
+        <div class="nav__menu" id="nav-menu">
+         <ul class="nav__list">
+          <li class="nav__items">
+           <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+          <li class="nav__items">
+           <a href="#new" class="nav__link">News</a>
+          </li>
+          <li class="nav__items">
+           <a href="#about" class="nav__link">About Us</a>
+          </li>
+          <li class="nav__items">
+           <a href="#favorite" class="nav__link">Favorites</a>
+          </li>
+          <li class="nav__items">
+           <a href="#visit" class="nav__link">Location</a>
+          </li>
+         </ul>
+
+         <!-----close button ---- -->
+         <div class="nav__close" id="nav-close">
+          <i class="ri-close-line"></i>
+         </div>
+
+         <img src="./assets/img/coffee-2.png" alt="image" class="nav__img-1">
+         <img src="./assets/img/coffee-1.png" alt="image" class="nav__img-2">
+        </div>
+
+        <!-- Toggle button  -->
+        <div class="nav__toggle" id="nav-toggle">
+         <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+
+    <!-- ---------MAIN --------- -->
+    <main class="main">
+      <!------ HOME ----->
+      <section class="home section" id="home">
+         <img src="./assets/img/home-bg.jpg" alt="image" class="home__bg">
+         <div class="home__shadow"></div>
+
+         <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">
+              Espresso Excellence in Every Line of Code at <br> JavaScript Café</h1>
+
+              <a href="#" class="button">Select Coffee</a>
+
+              <img src="./assets/img/coffee-1.png" alt="" class="home__coffee">
+            
+          </div>
+
+          <div class="home__image">
+            <img src="assets/img/home.png" alt="" class="home__img">
+          </div>
+
+          <footer class="home__footer">
+            <div class="home__location">
+              <i class="ri-map-pin-line"></i>
+              <span>123 Jorpati Street <br> Bouddha, Kathmandu
+                </span>
+            </div>
+
+            <div class="home__social">
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="ri-facebook-circle-line"></i>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a href="https://www.youtube.com/" target="_blank">
+                <i class="ri-youtube-line"></i>
+              </a>
+            </div>
+          </footer>
+         </div>
+      </section>
+
+      <!------ NEWS ----->
+
+      <section class="news section" id="new">
+        <h2 class="section__title">New</h2>
+
+        <div class="new__container container grid">
+          <div class="new__content grid">
+            <article class="new__card">
+              <div class="new__data">
+                <h2 class="new__title">Harmony Hues Blend</h2>
+                <p class="new__description">Discover our newest creation- Harmony Hues Blend. A symphony of velvety cocoa, citrus notes, and a hint of nutmeg awaits.
+                </p>
+              </div>
+
+              <img src="assets/img/new-coffee.png" alt="img" class="new__img">
+            </article>
+
+            <article class="new__card">
+              <div class="new__data">
+                <h2 class="new__title">Flavorful Pairings</h2>
+                <p class="new__description"> Discover perfect pairings—indulge in rich chocolate cake, savor zesty citrus scones, and enjoy warm nutmeg spice cookies.</p>
+              </div>
+
+              <img src="assets/img/new-cake-2.png" alt="img" class="new__img">
+            </article>
+
+            <article class="new__card">
+              <div class="new__data">
+                <h2 class="new__title">Brewing Mastery</h2>
+                <p class="new__description">Master the art of brewing Harmony Hues Blend for a perfect cup every time.
+                </p>
+              </div>
+
+              <img src="assets/img/new-coffee-3.png" alt="img" class="new__img">
+            </article>
+          </div>
+
+          <a href="#" class="new__button button">Explore More Stories
+          </a>
+        </div>
+      </section>
+
+
+      <!------ ABOUT ----->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title">About Us</h2>
+
+            <p class="about__description">
+              Welcome to Java Script Café, where passion meets pour. We're more than a coffee shop; we're a community brewing connections and crafting moments. From bean to cup, our commitment to quality and warmth sets us apart. Join us in savoring the joy of exceptional coffee and creating memories, one sip at a time.
+              <br>
+              Cheers, <br>
+              The Java Script Café Team
+            </p>
+
+            <a href="#" class="button">Know More</a>
+
+            <img src="assets/img/coffee-2.png" alt="img" class="about__coffee">
+          </div>
+
+          <img src="assets/img/about.jpg" alt="img" class="about__img">
+        </div>
+      </section>
+
+
+      <!------ FAVORITES ----->
+      <section class="favorites section" id="favorite">
+         <h2 class="section__title">Customer Favorites</h2>
+
+         <div class="favorite__container container grid">
+          <article class="favorite__card">
+            <img src="assets/img/fav-1.png" alt="img" class="favorite__img">
+
+            <div class="favorite__data">
+              <h2 class="favorite__title">Cappuccino Classico
+              </h2>
+              <span class="favorite__subtitle">Coffee</span>
+              <h3 class="favorite__price">NPR 300</h3>
+            </div>
+
+            <button class="favorite__button button">
+              <i class="ri-add-line"></i>
+
+            </button>
+          </article>
+
+          <article class="favorite__card">
+            <img src="assets/img/fav-2.png" alt="img" class="favorite__img">
+
+            <div class="favorite__data">
+              <h2 class="favorite__title">Hazelnut Latte
+              </h2>
+              <span class="favorite__subtitle">Coffee</span>
+              <h3 class="favorite__price">NPR 320</h3>
+            </div>
+
+            <button class="favorite__button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+
+          <article class="favorite__card">
+            <img src="assets/img/fav-3.png" alt="img" class="favorite__img">
+
+            <div class="favorite__data">
+              <h2 class="favorite__title"> Americano Gold
+              </h2>
+              <span class="favorite__subtitle">Coffee</span>
+              <h3 class="favorite__price">NPR 220</h3>
+            </div>
+
+            <button class="favorite__button button">
+              <i class="ri-add-line"></i>
+              
+            </button>
+          </article>
+
+          <article class="favorite__card">
+            <img src="assets/img/fav-4.png" alt="img" class="favorite__img">
+
+            <div class="favorite__data">
+              <h2 class="favorite__title">Vanilla Cold Brew</h2>
+              <span class="favorite__subtitle">Coffee</span>
+              <h3 class="favorite__price">NPR 350
+              </h3>
+            </div>
+
+            <button class="favorite__button button">
+              <i class="ri-add-line"></i>
+              
+            </button>
+          </article>
+
+          <article class="favorite__card">
+            <img src="assets/img/fav-5.png" alt="img" class="favorite__img">
+            <div class="favorite__data">
+              <h2 class="favorite__title">Flat White Elegance
+              </h2>
+              <span class="favorite__subtitle">Coffee</span>
+              <h3 class="favorite__price">NPR 280</h3>
+            </div>
+
+            <button class="favorite__button button">
+              <i class="ri-add-line"></i>
+              
+            </button>
+          </article>
+
+          <article class="favorite__card">
+            <img src="assets/img/fav-6.png" alt="img" class="favorite__img">
+
+            <div class="favorite__data">
+              <h2 class="favorite__title">Iced Caramel Espresso
+              </h2>
+              <span class="favorite__subtitle">Coffee</span>
+              <h3 class="favorite__price">NPR 330</h3>
+            </div>
+
+            <button class="favorite__button button">
+              <i class="ri-add-line"></i>
+              
+            </button>
+          </article>
+         </div>
+      </section>
+
+
+      <!------ VISIT ----->
+      <section class="visit section" id="visit">
+        <div class="visit__container">
+          <img src="assets/img/visit-bg.jpg" alt="" class="visit__bg">
+
+          <div class="visit__shadow"></div>
+
+          <div class="visit__content container grid">
+            <div class="visit__data">
+              <h2 class="section__title">Visit Us</h2>
+
+              <p class="visit__description">
+                Step into coffee paradise. Escape, sip, and make memories. See you at Java Script Café!
+              </p>
+
+              <a href="#" class="button">See Location</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+     <!-------- FOOTER---- -->
+    <footer class="footer">
+    <div class="footer__container container grid">
+      <div>
+        <a href="#" class="footer__logo">Java Script Café</a>
+        <p class="footer__description">Elevating moments with every sip at <br> Java Script Café where <br> coffee meets community.</p>
+      </div>
+
+      <div class="footer__content grid">
+        <div>
+          <h3 class="footer__title">Address </h3>
+
+            <ul class="footer__list">
+              <li>
+                <address class="footer__info">123 Jorpati Street, <br> bouddha, Kathmandu</address>
+              </li>
+
+              <li>
+                <address class="footer__info"> 9AM - 11PM
+                
+                </address>
+              </li>
+            </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__title"> Contact Me</h3>
+
+            <ul class="footer__list">
+              <li>
+                <address class="footer__info">js@gmail.com</address>
+              </li>
+              
+              <li>
+                <address class="footer__info">+977 12345678</address>
+              </li>
+            </ul>
+         
+        </div>
+
+        <div>
+          <h3 class="footer__title">Follow Us</h3>
+
+           <div class="footer__social">
+            <a href="https://www.facebook.com/" target="_blank" >
+              <i class="ri-facebook-circle-line"></i>
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank" >
+              <i class="ri-instagram-line"></i>
+
+            </a>
+            
+            <a href="https://www.youtube.com/" target="_blank" >
+              <i class="ri-youtube-line"></i>
+            </a>
+           </div>
+        </div>
+      </div>
+
+      <img src="assets/img/coffee-4.png" alt="image" class="footer__img-1">
+      <img src="assets/img/coffee-3.png" alt="image" class="footer__img-2">
+    </div>
+
+    <span class="footer__right">
+      &#169; All Right Reserved By Prashant
+    </span>
+    </footer>
+
+
+    <!------------ SCROLL UP --------->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+
+   <!------------ SCROLL REVEAL --------->
+   <script src="scrollreveal.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
